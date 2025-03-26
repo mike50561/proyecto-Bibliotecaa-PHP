@@ -1,0 +1,103 @@
+@use 'vuetify' with (
+  $body-font-family: 'Roboto, sans-serif'
+);
+
+/* =====================
+   Fuente y fondo global
+   ===================== */
+body {
+  background-color: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+/* =====================
+   Títulos
+   ===================== */
+h1, h2, h3 {
+  font-weight: 500;
+  color: goldenrod;
+}
+
+/* =====================
+   Navegación
+   ===================== */
+.nav-link {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-link.router-link-exact-active {
+  color: #90caf9;
+}
+
+.toolbar-title-link {
+  text-decoration: none;
+  color: white;
+}
+.toolbar-title-link:hover {
+  opacity: 0.8;
+}
+
+/* =====================
+   Footer
+   ===================== */
+.v-footer {
+  border-top: 2px solid #3949ab;
+  font-size: 0.9rem;
+}
+
+.footer-compact {
+  font-size: 0.75rem;
+  border-top: 1px solid #3949ab;
+}
+
+.custom-footer {
+  font-size: 0.85rem;
+  background: linear-gradient(90deg, #3949ab, #1e88e5);
+}
+
+/* =====================
+   Cards y botones
+   ===================== */
+.v-card {
+  border-radius: 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.v-btn {
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.v-btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* =====================
+   Página de login y registro
+   ===================== */
+.auth-page {
+  background: linear-gradient(135deg, #1e1e2f, #2c2c3e);
+  min-height: 600px;
+  padding: 20px;
+}
+
+/* =====================
+   Responsive
+   ===================== */
+@media (max-width: 600px) {
+  .v-card {
+    margin: 0 10px;
+    padding: 20px;
+  }
+
+  .v-btn {
+    font-size: 14px;
+  }
+}
