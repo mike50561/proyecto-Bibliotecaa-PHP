@@ -75,7 +75,9 @@ Listado de libros, Registro, edición y eliminación (solo admin)
 - Vista de historial personal para estudiantes y profesores
 
 ## 📝 Diagrama de base de datos
-![Diagrama](capturas/diagrama.jpg)
+<p align="center">
+  <img src="capturas/diagrama.png" alt="Diagrama" width="200"/>
+</p>
 
 ##  Tablas principales
 
@@ -88,13 +90,11 @@ Listado de libros, Registro, edición y eliminación (solo admin)
 - devoluciones: Marca los préstamos devueltos
 
 ## 📸 Capturas de pantalla
-
-Agrega una carpeta capturas/ en el proyecto con tus screenshots:
-
-![Home](./capturas/home.png)
-![Login](./capturas/login.png)
-![Registro](./capturas/register.png)
-![Listado de libros](./capturas/libros.png)
+- ![Home1](./capturas/inicio1.png)
+- ![Home2](./capturas/inicio2.png)
+- ![Home3](./capturas/inicio3.png)
+- ![Login](./capturas/login.png)
+- ![Registro](./capturas/registro.png)
 
 ## 🚪 Roles y permisos
 
